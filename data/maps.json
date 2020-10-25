@@ -3600,7 +3600,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Bank/thumb.png",
                 "board": "data/maps/Bank/board.png",
-                "losFile": "data/maps/Bank/los-v7.jpg"
+                "losFile": "data/maps/Bank/los.png"
             },
             "size": [1217, 910],
             "zones": {
@@ -3830,7 +3830,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/ACE_Chemicals/thumb.png",
                 "board": "data/maps/ACE_Chemicals/board.png",
-                "losFile": "data/maps/ACE_Chemicals/los-v5.jpg"
+                "losFile": "data/maps/ACE_Chemicals/los.png"
             },
             "size": [1217, 910],
            "zones": {
@@ -4042,7 +4042,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Crime_Alley/thumb.png",
                 "board": "data/maps/Crime_Alley/board.png",
-                "losFile": "data/maps/Crime_Alley/los-v5.jpg"
+                "losFile": "data/maps/Crime_Alley/los.png"
             },
             "size": [1217, 910],
             "zones": {
@@ -4242,7 +4242,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Subway/thumb.png",
                 "board": "data/maps/Subway/board.png",
-                "losFile": "data/maps/Subway/los-v7.jpg"
+                "losFile": "data/maps/Subway/los.png"
             },
             "size": [1217, 910],
             "zones": {
@@ -4499,7 +4499,7 @@
             "id": "Arkham_Asylum",
             "description": {
                 "title": {
-                    "fr": "L'asyle d'Arkham",
+                    "fr": "L'asile d'Arkham",
                     "en": "Arkham asylum",
                     "it": "Arkham asylum"
                 },
@@ -4508,7 +4508,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Arkham_Asylum/thumb.png",
                 "board": "data/maps/Arkham_Asylum/board.png",
-                "losFile": "data/maps/Arkham_Asylum/los-v2.jpg"
+                "losFile": "data/maps/Arkham_Asylum/los.png"
             },
             "size": [1217, 910],
             "zones": {
@@ -4828,7 +4828,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Joker_Funhouse/thumb.png",
                 "board": "data/maps/Joker_Funhouse/board.png",
-                "losFile": "data/maps/Joker_Funhouse/los-v3.jpg"
+                "losFile": "data/maps/Joker_Funhouse/los.png"
             },
             "size": [1217, 910],
             "zones": {
@@ -5040,7 +5040,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Batcave/thumb.png",
                 "board": "data/maps/Batcave/board.png",
-                "losFile": "data/maps/Batcave/los-v1.jpg"
+                "losFile": "data/maps/Batcave/los.png"
             },
             "size": [1217, 910],
             "zones": {
@@ -5294,7 +5294,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Crime_Alley_Night/thumb.png",
                 "board": "data/maps/Crime_Alley_Night/board.png",
-                "losFile": "data/maps/Crime_Alley_Night/los-v1.jpg"
+                "losFile": "data/maps/Crime_Alley_Night/los.png"
             },
             "size": [1217, 910],
             "zones": {
@@ -5494,7 +5494,7 @@
                 "copyright": "Monolith",
                 "thumbnail": "data/maps/Wayne_Manor/thumb.png",
                 "board": "data/maps/Wayne_Manor/board.png",
-                "losFile": "data/maps/Wayne_Manor/los-v2.jpg"
+                "losFile": "data/maps/Wayne_Manor/los.png"
             },
             "size": [1217, 910],
             "zones": {
