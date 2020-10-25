@@ -132,6 +132,35 @@
                 "en": "Khitaï",
                 "it": "Khitai"
             }
+        },
+
+         {
+            "id": "Arkham asylum",
+            "type": "other",
+            "title": {
+                "fr": "Boîte d'extension \"Arkham asylum\"",
+                "en": "\"Arkham asylum\" expansion box",
+                "it": "\"Arkham asylum\" expansion box"
+            },
+            "short": {
+                "fr": "Boîte Arkham asylum",
+                "en": "Arkham asylum box",
+                "it": "Arkham asylum box"
+            }
+        }, 
+        {
+            "id": "Wayne Manor",
+            "type": "other",
+            "title": {
+                "fr": "Boîte d'extension \"Wayne Manor\"",
+                "en": "\"Wayne Manor\" expansion box",
+                "it": "\"Wayne Manor\" expansion box"
+            },
+            "short": {
+                "fr": "Boîte Wayne Manor",
+                "en": "Wayne Manor box",
+                "it": "Wayne Manor box"
+            }
         }, 
         
         {
