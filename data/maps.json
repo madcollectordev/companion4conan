@@ -3972,7 +3972,7 @@
                             "it": "A level 2 climb/fall can be performed between those areas."
                         },
                         "coordinates": [[76,38], [76,69], [76.6,86], [48.7,78.8]],
-                        "areas": ["5", "17", "24", "25", "26"],
+                        "areas": ["5", "17", "24", "25", "26", "28"],
                         "areasColor": "turquoise",
                         "areasText": {
                             "fr": "Les zones de niveau 2 escaladables sont visibles en turquoise.",
@@ -6131,7 +6131,7 @@
                     "it": "Wayne Manor"
                 },
                 "version": "1.0",
-                "origins": ["Wayne manor"],
+                "origins": ["Wayne Manor"],
                 "copyright": "Monolith",
 				"rules": [
                     {
