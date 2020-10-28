@@ -123,7 +123,7 @@ var ConanMaps = {
                 var result = /^([0-9]+)#(.+)#([0-9]+)$/.exec(link)
                 if (!result)
                 {
-                    console.error("    Error in zone '" + z + "', the link n°" + l + " is not readable: " + link);
+                    console.error(map.id + " :  Error in zone '" + z + "', the link n°" + l + " is not readable: " + link);
                 }
                 else
                 {
@@ -133,27 +133,27 @@ var ConanMaps = {
 
                     if (centerOfZ < 1 || centerOfZ > nbZCenters)
                     {
-                        console.error("    Error in zone '" + z + "', the link n°" + l + " starts from an unexisting center: " + link);
+                        console.error(map.id + " :  Error in zone '" + z + "', the link n°" + l + " starts from an unexisting center: " + link);
                     }
 
                     var targetZone = map.zones[targetZoneName];
                     if (!targetZone)
                     {
-                        console.error("    Error in zone '" + z + "', the link n°" + l + " links to an unexisting zone: " + link);
+                        console.error(map.id + " :  Error in zone '" + z + "', the link n°" + l + " links to an unexisting zone: " + link);
                     }
                     else
                     {
                         var nbTargetZoneCenters = targetZone.centers.length;
                         if (centerOfTarget < 1 || centerOfTarget > nbTargetZoneCenters)
                         {
-                            console.error("    Error in zone '" + z + "', the link n°" + l + " leads to an unexisting center: " + link);
+                            console.error(map.id + " :  Error in zone '" + z + "', the link n°" + l + " leads to an unexisting center: " + link);
                         }
                         else if (!zone.onewaylinks)
                         {
                             var reverseLink = centerOfTarget + "#" + z + "#" + centerOfZ;
                             if (!targetZone.links.includes(reverseLink))
                             {
-                                console.error("    Error in zone '" + z + "', the link n°" + l + " has no reverse link: " + link);
+                                console.error(map.id + " :   Error in zone '" + z + "', the link n°" + l + " has no reverse link: " + link);
                             }
                         }
                     }
