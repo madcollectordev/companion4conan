@@ -162,6 +162,20 @@
                 "it": "Wayne Manor box"
             }
         }, 
+        {
+            "id": "Maps pack",
+            "type": "other",
+            "title": {
+                "fr": "Extensions cartes GCPD/Egouts",
+                "en": "GCPD/Sewers maps expansion",
+                "it": "GCPD/Sewers maps expansion"
+            },
+            "short": {
+                "fr": "Pack de cartes",
+                "en": "Maps pack",
+                "it": "Maps pack"
+            }
+        }, 
         
         {
             "id": "crossbowmen",
