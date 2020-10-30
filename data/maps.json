@@ -3921,7 +3921,7 @@
                             "it": "Level 2 jump"
                         },
                         "description": {
-                            "fr": "Un saut de niveau 2 est possible entre ces zones et les barrils rouges.",
+                            "fr": "Un saut de niveau 2 est possible entre ces zones et les barils rouges.",
                             "en": "A level 2 jump can be performed between those areas and the red barrels.",
                             "it": "A level 2 jump can be performed between those areas and the red barrels."
                         },
@@ -3929,7 +3929,7 @@
                         "areas": ["32"],
                         "areasColor": "red",
                         "areasText": {
-                            "fr": "Les barrils sont visibles en rouge.",
+                            "fr": "Les barils sont visibles en rouge.",
                             "en": "The barrels areas are visible in red.",
                             "it": "The barrels areas are visible in red."
 						}
@@ -6380,6 +6380,119 @@
                 "version": "1.0",
                 "origins": ["Maps pack"],
                 "copyright": "Monolith",
+				"rules": [
+                    {
+                        "title": {
+                            "fr": "Paroi de niveau 1",
+                            "en": "Level 1 wall",
+                            "it": "Level 1 wall"
+                        },
+                        "description": {
+                            "fr": "Paroi de niveau 1.",
+                            "en": "Level 1 wall.",
+                            "it": "Level 1 wall."
+                        },
+                        "coordinates": [[91.33,23.00], [32.91,31.57], [18.86,83.00], [42.52,70.14], [71.61,68.60], [94.04,86.74]]
+                    },
+                    {
+                        "title": {
+                            "fr": "Escalade de niveau 1",
+                            "en": "Level 1 climb",
+                            "it": "Level 1 climb"
+                        },
+                        "description": {
+                            "fr": "Une escalade de niveau 1 est possible entre ces deux zones.",
+                            "en": "A level 1 climb can be performed between those two areas.",
+                            "it": "A level 1 climb can be performed between those two areas."
+                        },
+                        "coordinates": [[7.68,15.64], [64.71,39.59], [64.87,81.13]]
+                    },
+                    {
+                        "title": {
+                            "fr": "Escalade de niveau 2",
+                            "en": "Level 2 climb",
+                            "it": "Level 2 climb"
+                        },
+                        "description": {
+                            "fr": "Une escalade de niveau 2 est possible entre ces deux zones.",
+                            "en": "A level 2 climb can be performed between those two areas.",
+                            "it": "A level 2 climb can be performed between those two areas."
+                        },
+                        "coordinates": [[64.46,50.14]]
+                    },
+                    {
+                        "title": {
+                            "fr": "Chute de niveau 0",
+                            "en": "Level 0 fall",
+                            "it": "Level 0 fall"
+                        },
+                        "description": {
+                            "fr": "Une chute de niveau 0 est possible entre ces deux zones.",
+                            "en": "A level 0 fall can be performed between those two areas.",
+                            "it": "A level 0 fall can be performed between those two areas."
+                        },
+                        "coordinates": [[64.79,54.76]]
+                    },
+                    {
+                        "title": {
+                            "fr": "Chute de niveau 2",
+                            "en": "Level 2 fall",
+                            "it": "Level 2 fall"
+                        },
+                        "description": {
+                            "fr": "Une chute de niveau 2 est possible entre ces deux zones.",
+                            "en": "A level 2 fall can be performed between those two areas.",
+                            "it": "A level 2 fall can be performed between those two areas."
+                        },
+                        "coordinates": [[14.42,15.97], [64.96,43.88], [65.12,89.70]]
+                    },
+                    {
+                        "title": {
+                            "fr": "Saut de niveau 2",
+                            "en": "Level 2 jump",
+                            "it": "Level 2 jump"
+                        },
+                        "description": {
+                            "fr": "Un saut de niveau 2 est possible entre ces deux zones.",
+                            "en": "A level 2 jump can be performed between those two areas.",
+                            "it": "A level 2 jump can be performed between those two areas."
+                        },
+                        "coordinates": [[22.31,53.00], [42.44,52.23], [58.05,52.45], [83.03,52.12], [51.32,62.67], [51.64,84.65]]
+					},
+                    {
+                        "title": {
+                            "fr": "Saut de niveau 3",
+                            "en": "Level 3 jump",
+                            "it": "Level 3 jump"
+                        },
+                        "description": {
+                            "fr": "Un saut de niveau 3 est possible entre ces zones.",
+                            "en": "A level 3 jump can be performed between those areas.",
+                            "it": "A level 3 jump can be performed between those areas."
+                        },
+                        "coordinates": [[51.56,52.56]],
+                        "areas": ["11", "12", "20", "26"],
+                        "areasColor": "turquoise",
+                        "areasText": {
+                            "fr": "Les zones sont visibles en turquoise.",
+                            "en": "The areas are visible in turquoise.",
+                            "it": "The areas are visible in turquoise."
+						}
+                    },
+                   {
+                        "title": {
+                            "fr": "Escalade/chute de niveau 2",
+                            "en": "Level 2 climb/fall",
+                            "it": "Level 2 climb/fall"
+                        },
+                        "description": {
+                            "fr": "Une escalade/chute de niveau 2 est possible entre ces deux zones.",
+                            "en": "A level 2 climb/fall can be performed between those areas.",
+                            "it": "A level 2 climb/fall can be performed between those areas."
+                        },
+                        "coordinates": [[25.19,16.19], [51.89,15.97]]
+                    }					
+				],
                 "thumbnail": "data/maps/Sewers/thumb.png",
                 "board": "data/maps/Sewers/board.png",
                 "losFile": "data/maps/Sewers/los.png"
@@ -6598,6 +6711,67 @@
                 "version": "1.0",
                 "origins": ["Maps pack"],
                 "copyright": "Monolith",
+				"rules": [
+                    {
+                        "title": {
+                            "fr": "Paroi de niveau 1",
+                            "en": "Level 1 wall",
+                            "it": "Level 1 wall"
+                        },
+                        "description": {
+                            "fr": "Paroi de niveau 1.",
+                            "en": "Level 1 wall.",
+                            "it": "Level 1 wall."
+                        },
+                        "coordinates": [[41.54,10.25], [97.49,13.77], [7.52,90.58], [43.76,61.02]]
+                    },
+                    {
+                        "title": {
+                            "fr": "Paroi de niveau 2",
+                            "en": "Level 2 wall",
+                            "it": "Level 2 wall"
+                        },
+                        "description": {
+                            "fr": "Paroi de niveau 2.",
+                            "en": "Level 2 wall.",
+                            "it": "Level 2 wall."
+                        },
+                        "coordinates": [[68.74,12.23], [91.99,27.29], [76.79,91.57], [18.28,68.82]]
+                    },
+                    {
+                        "title": {
+                            "fr": "Saut de niveau 1",
+                            "en": "Level 1 jump",
+                            "it": "Level 1 jump"
+                        },
+                        "description": {
+                            "fr": "Un saut de niveau 1 est possible entre ces zones, de proche en proche.",
+                            "en": "A level 1 jump can be performed between those closest areas.",
+                            "it": "A level 1 jump can be performed between those closest areas."
+                        },
+                        "coordinates": [],
+                        "areas": ["16", "19", "22", "31", "32", "36", "38", "40", "45", "47", "49"],
+                        "areasColor": "turquoise",
+                        "areasText": {
+                            "fr": "Les barils sont visibles en turquoise.",
+                            "en": "The barrels areas are visible in turquoise.",
+                            "it": "The barrels areas are visible in turquoise."
+						}
+					},
+                    {
+                        "title": {
+                            "fr": "Saut de niveau 3",
+                            "en": "Level 3 jump",
+                            "it": "Level 3 jump"
+                        },
+                        "description": {
+                            "fr": "Un saut de niveau 3 est possible entre ces piliers.",
+                            "en": "A level 3 jump can be performed between those pillars.",
+                            "it": "A level 3 jump can be performed between those pillars."
+                        },
+                        "coordinates": [[49.18,34.65], [49.26,93.88]]
+					}				
+				],
                 "thumbnail": "data/maps/GCPD/thumb.png",
                 "board": "data/maps/GCPD/board.png",
                 "losFile": "data/maps/GCPD/los.png"
